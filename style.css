@@ -1,5 +1,7 @@
 .body{
     background-color: rgb(228, 228, 228);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .decorate-none{
     list-style: none;
@@ -35,4 +37,17 @@
 
 .bg-custom-green{
     background-color: rgba(92, 171, 92, 0.336);
+}
+
+.text-body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.url{
+    text-decoration: none;
+    color: gray;
+    font-size: small;
+    font-weight: 25px;
 }
