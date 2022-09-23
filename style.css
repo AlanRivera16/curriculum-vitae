@@ -1,0 +1,38 @@
+.body{
+    background-color: rgb(228, 228, 228);
+}
+.decorate-none{
+    list-style: none;
+}
+.display-cus{
+    font-size: 21px;
+}
+.font-size-1{
+    font-size: 16px;
+}
+.bg-custom{
+    background-color: brown;
+}
+#danger{
+    text-transform: capitalize;
+    border-radius: 0%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    margin-block-start: 200px;
+    display: block;
+}
+
+#danger::after{
+    width: 120px;
+    padding-bottom: 34px;
+    margin-top: 32px;
+    border-bottom-left-radius: 120px;
+    font-style: italic;
+
+}
+
+.bg-custom-green{
+    background-color: rgba(92, 171, 92, 0.336);
+}
